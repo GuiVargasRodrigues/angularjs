@@ -8,19 +8,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
 <body>
-    <!-- Parte 1: Expressão matemática -->
+    <!--  Expressão matemática -->
     <div>
         <p>O resultado é: {{ 10 + 10 }}</p>
     </div>
 
-    <!-- Parte 2: Input de texto e visualização -->
+    <!--  Input de texto e visualização -->
     <div>
         <label for="nameInput">Digite seu nome:</label>
         <input type="text" id="nameInput" ng-model="name">
         <h1>Olá {{ name }}</h1>
     </div>
 
-    <!-- Parte 3: Variável inicializada com ng-init -->
+    <!-- Variável inicializada com ng-init -->
     <div ng-init="nome='Maria'">
         <p>O nome inicial é: <span ng-bind="nome"></span></p>
     </div>
